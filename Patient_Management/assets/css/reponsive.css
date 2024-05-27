@@ -1,0 +1,213 @@
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px){
+    #header .siu{
+        display: none;
+    }
+
+    .header-out{
+        display: inline-block !important;
+    }
+
+    .navr{
+        display: none;
+    }
+
+    #nav li:hover > .subnav{
+        display: none;
+      }
+
+    .fa-chevron-down{
+        display: none;
+    }
+
+    .school, .slo{
+        display: inline-block;
+        margin-left: 20%;
+    }
+
+    .tablet-search-btn{
+        display: inline-block;
+        width: 6%;
+    }
+
+    .tablet-search-btn:hover{
+        background-color: red;
+    }
+    .khoa-nho p{
+        font-size: 20px;
+    }
+
+    #block-form h2{
+        font-size: 20px;
+      }
+
+      #numberRoom{
+        font-size: 30px;
+      }
+
+      .member{
+        width: 96% !important;
+}
+}
+
+/* Mobile */
+@media (max-width: 740px){
+    #nav > li{
+        display: block;
+    }
+
+    #nav{
+        display: block;
+    }
+
+    #nav > li:first-child{
+        display: inline-block;
+    }
+
+    #header .siu{
+        display: none;
+    }
+
+    #nav li:hover > .subnav{
+        display: none;
+      }
+
+    .fa-chevron-down{
+        display: none;
+    }
+
+    .slogan{
+        display: none;
+    }
+    
+    #header{
+        overflow: hidden;
+        position: relative;
+    }
+
+    #mobile-menu-btn{
+        display: block;
+        
+    }
+
+    #mobile-menu-btn:hover{
+        display: block;
+        background-color: gainsboro;
+    }
+
+    .foot-footer{
+        margin: 0 auto;
+        width: 70%;
+        height: 60px;
+    }
+
+    .member{
+        margin-left: 20px;
+    }
+
+    .info-bottom, .sdt{
+        display: none;
+    }
+
+    .navr{
+        display: none;
+    }
+
+    .head-banner img{
+        max-width: 100%;
+    }
+
+    .logo-section a{
+        margin-right: 8px;
+    }
+
+    .school{
+        margin-bottom: 10px;
+    }
+
+    .head-banner{
+        margin-top: 10px;
+        margin-top: 10px;
+    }
+
+    .header-out{
+        display: inline-block !important;
+    }
+
+    .tablet-search-btn{
+        display: inline-block;
+        position: absolute;
+        top: 0;
+        right: 12%;
+    }
+
+    .tablet-search-btn:hover{
+        background-color: red;
+    }
+
+    .pb1{
+        width: 26%;
+        margin-top: auto;
+        margin-left: 1%;
+        margin-bottom: 10%;
+    }
+
+    .khoa-nho h2{
+        font-size: 16px;
+    }
+
+    .khoa-nho h1{
+        font-size: 30px;
+    }
+
+    .khoa-nho p{
+        font-size: 20px;
+    }
+
+    h4{
+        font-size: 14px;
+    }
+
+    .th{
+        font-size: 20px;
+    }
+
+    .patient-image img{
+        width: 20%;
+        height: auto;
+      }
+
+      .th{
+        width: 75%;
+        font-size: 100%;
+      }
+
+      #block-form h2{
+        font-size: 18px;
+      }
+
+      #numberRoom{
+        font-size: 25px;
+      }
+
+      .info-room h2{
+        font-size: 20px;
+      }
+      .bs p{
+        font-size: 16px;
+      }
+}
+/* PC */
+@media (min-width: 1024px) and (max-width: 1510px){
+     .head-banner > *{
+        box-sizing: border-box;
+    }
+    
+    .slo{
+        display: none;
+    }
+
+    .navr{
+        float: right;
+    }
+}

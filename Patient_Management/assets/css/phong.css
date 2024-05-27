@@ -1,0 +1,79 @@
+.khoa{
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 5%;
+}
+
+.bspic{
+    max-width: 25%;
+    height: 25%;
+    margin-left: 10%;
+    border: 1px solid black;
+}
+
+.container-bs{
+    border: 1px solid black;
+    margin: 5%;
+}
+
+.bs{
+    display: flex;
+    margin: 5%;
+    justify-content: center;
+    align-items: center;
+}
+
+.ttbs{
+    margin-left: 10%;
+    width: 100%;
+}
+
+.pb{
+    width: 26%;
+    margin-top: auto;
+    margin-left: 1%;
+    margin-bottom: 10%;
+    transition: transform .3s;
+    cursor: pointer;
+}
+
+.pb1{
+    width: 13%;
+    transition: transform .3s;
+    cursor: pointer;
+}
+
+.khoa-nho .row{
+    text-align: center;
+    font-size: 30px;
+}
+
+.tt{
+    margin: 5%;
+    border: 1px solid black;
+    padding: 2%;
+}
+
+.pb:hover {
+    transform: scale(1.2);
+}
+
+.pb1:hover{
+    transform: scale(1.2);
+}
+
+.thong-tin-khoa{
+    text-align: center;
+    text-transform: uppercase;
+    font-family:Arial, Helvetica, sans-serif;
+    color: blue;
+}
+
+.ttbs h2{
+    color: red;
+}
+
+h4{
+    margin-bottom: 15px !important;
+}
+  

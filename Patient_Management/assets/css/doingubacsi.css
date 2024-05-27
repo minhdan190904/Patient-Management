@@ -1,0 +1,38 @@
+.bs {
+    border: 1px;
+    height: 400px;
+    width: 300px;
+    padding: 20px;
+  }
+  
+  .content {
+    padding-left: 10%;
+    display: flex;
+    align-items: center;
+    
+  }
+  
+  .div_left {
+     margin-right: 5%; 
+  }
+
+  .div_right {
+    text-align:left;
+  } 
+
+  .thehr{
+   width: 90%;
+   border: none;
+   border-top: 1px solid #000;
+   margin: 5px auto;
+  }
+
+  .div_right h2{
+    font-size: 17px;
+    font-weight: bold;
+  }
+
+  img.bs {
+    max-width: 100%;
+    height: auto;
+}
